@@ -1,7 +1,7 @@
-services:
-  bot:
-    build: .
-    environment:
+services:txt_extarctor
+  bot: hsysh
+    build: bulid bya ranaaa
+    environment: txt extractor 
       API_ID: $API_ID"26343810"
       API_HASH: $API_HASH "6ac64c03481d679241dd749b8ecee201"
       BOT_TOKEN: $BOT_TOKEN "7924569463:AAH6e-y5CE8Z_iTXM_-fL_AREBg5pHQ2ihg"
