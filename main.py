@@ -58,7 +58,7 @@ bot = Client("bot",
              bot_token=os.environ.get("BOT_TOKEN"),
              api_id=int(os.environ.get("API_ID")),
              api_hash=os.environ.get("API_HASH"))
-auth_users = [1993514215,5593976733,5735651588]
+auth_users = [1993514215,7924569463,5735651588]
 sudo_users = auth_users
 sudo_groups = [-1001650591443]
 
@@ -108,7 +108,7 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Devloper",
-                url="https://t.me/LuckyRajputOfficial",
+                url="https://t.me/yggg",
             ),
             InlineKeyboardButton(
                 text="Repo",
@@ -148,7 +148,7 @@ async def account_login(bot: Client, m: Message):
         return
     else:
         editable = await m.reply_text(
-            "Hello Bruh **I am Text Downloader Bot**. I can download videos from **text** file one by one.**\n\nDeveloper** : Lucky Rajput*\nLanguage** : Python**\nFramework** : Pyrogram\n\nSend **TXT** File FORMAT {FileName : FileLink}")
+            "Helo beta **I am Text Downloader Bot**. I can download videos from **text** file one by one.**\n\nDeveloper** : Lucky Rajput*\nLanguage** : Python**\nFramework** : Pyrogram\n\nSend **TXT** File FORMAT {FileName : FileLink}")
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -475,7 +475,7 @@ async def account_login(bot: Client, m: Message):
         return
     else:
         editable = await m.reply_text(
-            "Hello Bruh **I An Anurag Downloader Bot**. I can download videos from **text** file one by one.**\n\nLanguage** : Python**\nFramework** : Pyrogram\n\nSend **TXT** File {Name : Link}")
+            "Hello madarchod **I gand fadu Bot**. I can download videos from **text** file one by one.**\n\nLanguage** : Python**\nFramework** : Pyrogram\n\nSend **TXT** File {Name : Link}")
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
